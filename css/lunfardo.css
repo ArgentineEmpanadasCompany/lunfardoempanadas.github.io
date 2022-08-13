@@ -1,0 +1,106 @@
+.brand-name {
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 0.95rem;
+    letter-spacing: 0.0625em;
+    /*color: #FED136;*/
+    color: #fff;
+}
+
+header.masthead {
+    padding-top: 10.5rem;
+    padding-bottom: 6rem;
+    height: 100vh;
+    text-align: center;
+    color: #fff;
+    background-image: 
+      linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.26),
+        rgba(0, 0, 0, 0.26)
+      ),
+      url("../assets/img/all-lunfardo-empanadas-horizontal.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}
+
+@media (min-width: 992px) {
+    #mainNav .navbar-brand img {
+        height: 2.2rem;
+        transition: height 0.3s ease-in-out;
+    }
+}
+
+.masterhead-container {
+    padding-top: 10%;
+}
+
+.main-img-logo {
+    width: 40%;
+}
+
+.btn-font {
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+
+.drop { filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7)); }
+
+
+.bg-alert-info {
+    background-color: #255C99;
+}
+
+.alert-dismissible .btn-close {
+    color: #fff;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    
+    header.masthead {
+        padding-top: 10.5rem;
+        padding-bottom: 6rem;
+        height: 100vh;
+        text-align: center;
+        color: #fff;
+        background-image: 
+          linear-gradient(
+            to right,
+            rgba(0, 0, 0, 0.26),
+            rgba(0, 0, 0, 0.26)
+          ),
+          url("../assets/img/all-lunfardo-empanadas-vertical.jpg");
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .masterhead-container {
+        padding-top: 30%;
+    }
+    
+    .main-img-logo {
+        width: 60%;
+    }
+
+}
+
+
+
+section#contact {
+    background-color: #212529;
+    background-image: 
+    linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)
+        ),
+        url(../assets/img/all-lunfardo-empanadas-horizontal.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
