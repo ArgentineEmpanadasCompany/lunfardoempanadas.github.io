@@ -104,3 +104,31 @@ section#contact {
     background-repeat: no-repeat;
     background-position: center;
 }
+
+
+/* Flip effect over images*/
+
+.flip{
+    position: relative;
+    /*transition: all 1s ease;*/
+    transition: all .8s cubic-bezier(.34,1.45,.7,1);
+    transform: perspective(1500px);
+    /*transform-origin: 100% 50%;*/
+    transform-origin: 50% 50%;
+    transform-style: preserve-3d;
+  }
+  
+  .flip:hover{
+    /*transform: perspective(600px) rotateY(-180deg) translateX(100%);*/
+    /*transform: perspective(1500px) rotateY(-180deg);*/
+    transform: rotateY(-180deg);
+  }
+  
+  .flip .flip-1,
+  .flip .flip-2{
+  position: absolute;
+  backface-visibility: hidden;
+  }
+  .flip .flip-2{
+  transform: rotateY(-180deg);
+  }
