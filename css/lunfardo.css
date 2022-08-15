@@ -24,6 +24,14 @@
     font-weight: bolder;
 }
 
+#portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
+    font-style: inherit;
+}
+
+.portfolio-modal .modal-content p.item-intro {
+    font-style: inherit;
+}
+
 header.masthead {
     padding-top: 10.5rem;
     padding-bottom: 6rem;
