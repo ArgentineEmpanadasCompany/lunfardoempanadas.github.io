@@ -45,6 +45,16 @@ textarea::placeholder {
     font-style: italic;
 }
 
+a {
+    color: #0b8484;
+}
+
+a:hover {
+    color: #b6c7d6;
+}
+
+
+
 
 
 /* *** */
@@ -155,4 +165,85 @@ section#contact {
     font-weight: 700;
     margin-bottom: 0;
     line-height: normal;
+}
+
+.btn-lunfardo-orange {
+    background-color: #ff5c35;
+    color: #fff;
+    border: 1px solid #ff5c35;
+    text-align: center;
+    border-radius: 0.1875rem;
+    transition: 0.3s ease-in-out;
+    display: inline-block;
+}
+
+.btn-lunfardo-orange:hover {
+    background-color: #ffcec2;
+    color: #fff;
+    border: 1px solid #ffcec2;
+}
+
+.btn-lunfardo-light {
+    background-color: #fff;
+    color: #2e475d;
+    border: 1px solid #fff;
+    text-align: center;
+    border-radius: 0.1875rem;
+    transition: 0.3s ease-in-out;
+    display: inline-block;
+}
+
+.btn-lunfardo-light:hover {
+    background-color: #eaf0f6;
+    color: #2e475d;
+    border: 1px solid #eaf0f6;
+}
+
+.btn-lunfardo-dark {
+    background-color: #516f90;
+    border-color: #516f90;
+    color: #fff;
+    text-align: center;
+    border-radius: 0.1875rem;
+    transition: 0.3s ease-in-out;
+    display: inline-block;
+}
+
+.btn-lunfardo-dark:hover {
+    background-color: #425b76;
+    border-color: #425b76;
+    color: #fff;
+}
+
+.cta-lunfardo {
+    background-color: #0fbfbf;
+    color: #fff;
+    border: 1px solid #0fbfbf;
+    text-align: center;
+    border-radius: 0.1875rem;
+    transition: 0.3s ease-in-out;
+    display: inline-block;
+}
+
+.cta-lunfardo:hover {
+    background-color: #10a3a3;
+    color: #fff;
+    border: 1px solid #10a3a3;
+}
+
+.bg-black-lunfardo {
+    background-color: #2d3e50;
+    color: #ffffff;
+}
+
+.lunfardo-pill>span {
+    padding: 0.2rem 0.5rem;
+    color: #fff;
+    background-color: #4fb06d;
+    border-radius: 10px 3px 3px 10px;
+    line-height: 1;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
 }
