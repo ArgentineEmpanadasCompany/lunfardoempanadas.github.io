@@ -78,6 +78,51 @@ header.masthead {
     background-size: cover;
 }
 
+header.wholesale-masthead {
+    padding-top: 10.5rem;
+    padding-bottom: 6rem;
+    height: 40vh;
+    text-align: center;
+    color: #fff;
+    background-image: 
+      linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.26),
+        rgba(0, 0, 0, 0.26)
+      ),
+      url("../assets/img/good-day-spent-with-friends-and-empanadas.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}
+
+header.calendar-header {
+    padding-top: 10.5rem;
+    padding-bottom: 6rem;
+    height: 30vh;
+    text-align: center;
+    color: #fff;
+    background-image: 
+      linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.46),
+        rgba(0, 0, 0, 0.46)
+      ),
+      url("../assets/img/lunfardo-calendar-farmers-market-october.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}
+
+@media (min-width: 992px) {
+    #mainNav .navbar-brand img {
+        height: 2.2rem;
+        transition: height 0.3s ease-in-out;
+    }
+}
+
 @media (min-width: 992px) {
     #mainNav .navbar-brand img {
         height: 2.2rem;
@@ -107,6 +152,11 @@ header.masthead {
 
 .alert-dismissible .btn-close {
     color: #fff;
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    box-shadow: none;
 }
 
 
